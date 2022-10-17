@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 84px;
+}
+
+.header h1 {
+  font-family: 'Petrona', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #141414;
+}
+
+.list {
+  display: flex;
+}
+
+.list a {
+  padding-left: 10px;
+  font-family: 'Petrona', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #141414;
+}
