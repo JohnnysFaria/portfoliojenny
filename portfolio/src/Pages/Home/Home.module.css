@@ -9,17 +9,19 @@
   max-width: 250px;
   animation:foto 10000ms ease-in-out ;
   animation-iteration-count: infinite;
+  z-index: 1;
 }
 
 .foto{
   max-width: 100%;
+  z-index: 2;
 }
 
   @keyframes foto {
     0% { clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
     25% { clip-path: polygon(40% 0, 100% 40%, 63% 100%, 0 67%); }
     50% { clip-path: polygon(0 0, 78% 21%, 100% 100%, 25% 84%); }
-    75% { clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
+    75% { clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%); }
     100% { clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
 
   }

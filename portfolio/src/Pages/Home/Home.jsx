@@ -1,8 +1,8 @@
-import Header from '../Componentes/Header/Header';
-import Container from '../Container/Container';
-import Jenny from '../icones/imgs/Pic.jpg';
-import dec from '../icones/imgs/dec.svg';
-import sep from '../icones/imgs/separador.svg';
+import Header from '../../Componentes/Header/Header';
+import Container from '../../Container/Container';
+import Jenny from '../../icones/imgs/Pic.jpg';
+import dec from '../../icones/imgs/dec.svg';
+import sep from '../../icones/imgs/separador.svg';
 import styles from './Home.module.css';
 
 const Home = () => {

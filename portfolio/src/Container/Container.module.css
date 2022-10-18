@@ -1,10 +1,12 @@
 .root {
   display: flex;
-  margin: 0 150px;
+  margin: 0 100px;
 }
-/* .title {
+.title {
+  width: 50%;
   font-family: 'Petrona', serif;
-  font-size: 2rem;
+  font-size: 10rem;
   font-weight: bold;
-  color: #141414;
-} */
+  color: #CCCCCC;
+  flex-wrap: wrap;
+}
