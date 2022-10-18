@@ -1,6 +1,6 @@
 .root {
-  width: 80%;
-  margin: 0 auto;
+  display: flex;
+  margin: 0 150px;
 }
 /* .title {
   font-family: 'Petrona', serif;

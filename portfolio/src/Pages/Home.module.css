@@ -1,0 +1,61 @@
+.intro {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.losango {
+  max-width: 250px;
+  animation:foto 10000ms ease-in-out ;
+  animation-iteration-count: infinite;
+}
+
+.foto{
+  max-width: 100%;
+}
+
+  @keyframes foto {
+    0% { clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
+    25% { clip-path: polygon(40% 0, 100% 40%, 63% 100%, 0 67%); }
+    50% { clip-path: polygon(0 0, 78% 21%, 100% 100%, 25% 84%); }
+    75% { clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
+    100% { clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
+
+  }
+
+.text h1 {
+  font-family: 'Petrona', serif;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 60px;
+  color: #141414;
+  margin-top: 10px;
+}
+
+.dec {
+  position:absolute;
+  z-index: -1;
+  margin-left: -50px;
+  top: 100px;
+}
+
+.text h2 {
+  font-family: 'Fira sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.ferramentas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Fira sans', sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.ferramentas p {
+  padding: 5px;
+}
